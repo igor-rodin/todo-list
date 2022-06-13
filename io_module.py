@@ -14,7 +14,7 @@ def load_db():  # читаем из файла json в список словар
         return []
 
 
-def save_db(local_list):  # пишем в файл json список словарей
+def save_db(local_list):  # записываем в файл json список словарей
     if len(local_list) > 0:
         with open(settings.DB_FILE, 'w', encoding='UTF-8') as f:
             json.dump(local_list, f)
