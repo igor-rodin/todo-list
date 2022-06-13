@@ -1,4 +1,4 @@
 # Настройки программы
 
-db_file = 'todo.db'
-log_file = 'todo.log'
+DB_FILE = 'todo.db'
+LOG_FILE = 'todo.log.csv'
